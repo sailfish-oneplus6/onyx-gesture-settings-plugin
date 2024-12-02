@@ -57,26 +57,26 @@ Page {
             }
 
             // Launch camera
-            IconTextSwitch {
+//            IconTextSwitch {
                 //% "Launch camera"
-                text: qsTrId("onyx-gesture-camera")
+//                text: qsTrId("onyx-gesture-camera")
                 //% "Quickly start camera by drawing a circle on the screen"
-                description: qsTrId("onyx-gesture-camera-description")
-                checked: gestures.get("camera")
-                onCheckedChanged: gestures.set("camera", checked)
-                icon.source: "image://theme/icon-m-camera"
-            }
+//                description: qsTrId("onyx-gesture-camera-description")
+//                checked: gestures.get("camera")
+//                onCheckedChanged: gestures.set("camera", checked)
+//                icon.source: "image://theme/icon-m-camera"
+//            }
 
             // Call history
-            IconTextSwitch {
+//            IconTextSwitch {
                 //% "Call history"
-                text: qsTrId("onyx-gesture-voicecall")
+//                text: qsTrId("onyx-gesture-voicecall")
                 //% "Go to call history list by drawing a 'Λ' on the screen"
-                description: qsTrId("onyx-gesture-voicecall-description")
-                checked: gestures.get("voicecall")
-                onCheckedChanged: gestures.set("voicecall", checked)
-                icon.source: "image://theme/icon-m-call"
-            }
+//                description: qsTrId("onyx-gesture-voicecall-description")
+//                checked: gestures.get("voicecall")
+//                onCheckedChanged: gestures.set("voicecall", checked)
+//                icon.source: "image://theme/icon-m-call"
+//            }
         }
     }
 
